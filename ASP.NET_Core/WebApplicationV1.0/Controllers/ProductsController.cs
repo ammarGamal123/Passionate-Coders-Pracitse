@@ -42,6 +42,7 @@ namespace WebApplicationV1._0.Controllers
             existingProduct.Name = product.Name;
             existingProduct.Sku = product.Sku;
 
+    
 
             _context.Set<Product>().Update(existingProduct);
 

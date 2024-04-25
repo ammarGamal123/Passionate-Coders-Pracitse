@@ -1,6 +1,7 @@
 
 using Microsoft.EntityFrameworkCore;
 using WebApplicationV1._0.Data;
+using WebApplicationV1._0.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -29,9 +30,16 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// 
+app.UseMiddleware<RateLimitingMiddleware>();
+
+// NOTICE : The order for middleware is very important
+app.UseMiddleware<ProfilingMiddleware>();
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
 
 app.MapControllers();
 
