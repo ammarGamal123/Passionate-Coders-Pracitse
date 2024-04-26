@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|d:\\awork\\dotnet\\elmahdy\\asp.net_core\\webapplicationv1.0\\middlewares\\ratelimitingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|solutionrelative:middlewares\\ratelimitingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|d:\\awork\\dotnet\\elmahdy\\asp.net_core\\webapplicationv1.0\\filters\\logsensitiveactionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|solutionrelative:filters\\logsensitiveactionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|d:\\awork\\dotnet\\elmahdy\\asp.net_core\\webapplicationv1.0\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|d:\\awork\\dotnet\\elmahdy\\asp.net_core\\webapplicationv1.0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|d:\\awork\\dotnet\\elmahdy\\asp.net_core\\webapplicationv1.0\\middlewares\\profilingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|solutionrelative:middlewares\\profilingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|d:\\awork\\dotnet\\elmahdy\\asp.net_core\\webapplicationv1.0\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|d:\\awork\\dotnet\\elmahdy\\asp.net_core\\webapplicationv1.0\\filters\\logactivityfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|solutionrelative:filters\\logactivityfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,53 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RateLimitingMiddleware.cs",
-              "DocumentMoniker": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Middlewares\\RateLimitingMiddleware.cs",
-              "RelativeDocumentMoniker": "Middlewares\\RateLimitingMiddleware.cs",
-              "ToolTip": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Middlewares\\RateLimitingMiddleware.cs",
-              "RelativeToolTip": "Middlewares\\RateLimitingMiddleware.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAmwBYAAAAeAAAA",
+              "Title": "LogSensitiveActionAttribute.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Filters\\LogSensitiveActionAttribute.cs",
+              "RelativeDocumentMoniker": "Filters\\LogSensitiveActionAttribute.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Filters\\LogSensitiveActionAttribute.cs",
+              "RelativeToolTip": "Filters\\LogSensitiveActionAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T19:14:45.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProfilingMiddleware.cs",
-              "DocumentMoniker": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Middlewares\\ProfilingMiddleware.cs",
-              "RelativeDocumentMoniker": "Middlewares\\ProfilingMiddleware.cs",
-              "ToolTip": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Middlewares\\ProfilingMiddleware.cs",
-              "RelativeToolTip": "Middlewares\\ProfilingMiddleware.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T17:22:56.3Z",
+              "WhenOpened": "2024-04-26T15:54:58.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAuwCIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T17:13:34.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
               "ToolTip": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAuwBkAAAAdAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T14:39:58.154Z",
+              "WhenOpened": "2024-04-26T15:42:15.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T15:02:54.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogActivityFilter.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Filters\\LogActivityFilter.cs",
+              "RelativeDocumentMoniker": "Filters\\LogActivityFilter.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Filters\\LogActivityFilter.cs",
+              "RelativeToolTip": "Filters\\LogActivityFilter.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T14:59:54.82Z",
               "EditorCaption": ""
             }
           ]

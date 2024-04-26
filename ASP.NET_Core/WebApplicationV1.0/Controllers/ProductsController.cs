@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApplicationV1._0.Data;
+using WebApplicationV1._0.Filters;
 
 namespace WebApplicationV1._0.Controllers
 {
@@ -14,6 +15,28 @@ namespace WebApplicationV1._0.Controllers
             _context = context;
         }
 
+        [HttpGet]
+        [Route("")]
+        public ActionResult<IEnumerable<Product>> GetProducts()
+        {
+            var products = _context.Set<Product>().ToList();
+            
+            return Ok(products);
+        }
+
+        [HttpGet]
+        [Route("{id}")]
+        [LogSensitiveAction]
+        public ActionResult<Product> GetById(int id)
+        {
+            var product = _context.Set<Product>().Find(id);
+            
+            if (product == null)
+                return NotFound();
+
+            return Ok(product);
+        }
+
         [HttpPost]
         [Route("")]
         public ActionResult<Product> CreateProduct(Product product)
@@ -25,7 +48,6 @@ namespace WebApplicationV1._0.Controllers
 
             return Ok(product);
         }
-
 
         [HttpPut]
         [Route("")]
@@ -41,8 +63,6 @@ namespace WebApplicationV1._0.Controllers
 
             existingProduct.Name = product.Name;
             existingProduct.Sku = product.Sku;
-
-    
 
             _context.Set<Product>().Update(existingProduct);
 
@@ -65,31 +85,7 @@ namespace WebApplicationV1._0.Controllers
             _context.Set<Product>().Remove(existingProduct);
             _context.SaveChanges();
 
-
             return Ok(id);
         }
-
-        [HttpGet]
-        [Route("")]
-        public ActionResult<IEnumerable<Product>> GetProducts()
-        {
-            var products = _context.Set<Product>().ToList();
-
-            return Ok(products);
-        }
-
-
-        [HttpGet]
-        [Route("{id}")]
-        public ActionResult<Product> GetById(int id)
-        {
-            var product = _context.Set<Product>().Find(id);
-            
-            if (product == null)
-                return NotFound();
-
-            return Ok(product);
-        }
-
     }
 }

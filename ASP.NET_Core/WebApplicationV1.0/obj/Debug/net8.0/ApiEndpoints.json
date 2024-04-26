@@ -1,6 +1,26 @@
 [
   {
     "ContainingType": "WebApplicationV1._0.Controllers.ProductsController",
+    "Method": "GetProducts",
+    "RelativePath": "Products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplicationV1._0.Data.Product, WebApplicationV1.0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationV1._0.Controllers.ProductsController",
     "Method": "CreateProduct",
     "RelativePath": "Products",
     "HttpMethod": "POST",
@@ -53,15 +73,21 @@
   },
   {
     "ContainingType": "WebApplicationV1._0.Controllers.ProductsController",
-    "Method": "GetProducts",
-    "RelativePath": "Products",
+    "Method": "GetById",
+    "RelativePath": "Products/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplicationV1._0.Data.Product, WebApplicationV1.0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "WebApplicationV1._0.Data.Product",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -88,32 +114,6 @@
     "ReturnTypes": [
       {
         "Type": "System.Int32",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebApplicationV1._0.Controllers.ProductsController",
-    "Method": "GetById",
-    "RelativePath": "Products/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "WebApplicationV1._0.Data.Product",
         "MediaTypes": [
           "text/plain",
           "application/json",
