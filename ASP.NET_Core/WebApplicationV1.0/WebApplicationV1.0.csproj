@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>WebApplicationV1._0</RootNamespace>
+    <UserSecretsId>0f24e163-89e1-43e4-82d8-36dcc4bcd6f3</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

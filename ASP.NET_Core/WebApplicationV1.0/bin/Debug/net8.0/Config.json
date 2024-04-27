@@ -1,0 +1,8 @@
+{
+  "Loggin": {
+    "LogLevel": {
+      "Default": "Error"
+    }
+  },
+  "TestKey" : "Test Value"
+}

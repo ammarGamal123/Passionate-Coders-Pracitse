@@ -5,7 +5,13 @@ using WebApplicationV1._0.Filters;
 using WebApplicationV1._0.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+// Register Your Configuration Json File into Configuration AddJsonFile
+builder.Configuration.AddJsonFile("Config.Json");
+
 // Add services to the container.
+
 
 // Here We register a filter we made (Called Global Filter)
 builder.Services.AddControllers(/*options =>
@@ -16,15 +22,13 @@ builder.Services.AddControllers(/*options =>
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
 // Make .NET know what is weatherforecastservice ==> Dependency Registration 
 // 
 // builder.Services.AddScoped<IWeatherForecaseService , WeatherForecaseService>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(
-   builder => builder.UseSqlServer("server=.;database=Products;" +
-   "integrated security = true; trust server certificate=true")
-    );
+   cfg => cfg.UseSqlServer(builder.Configuration["ConnectionStrings:DefaultConnection"]
+   ));
 
 var app = builder.Build();
 

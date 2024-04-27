@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "WebApplicationV1._0.Controllers.ConfigController",
+    "Method": "GetConfig",
+    "RelativePath": "Config",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApplicationV1._0.Controllers.ProductsController",
     "Method": "GetProducts",
     "RelativePath": "Products",

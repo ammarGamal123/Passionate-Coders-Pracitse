@@ -37,8 +37,6 @@ namespace WebApplicationV1._0.Filters
 
             logger.LogInformation($"(Async) Action {context.ActionDescriptor.DisplayName}" +
                 $"Finished Execution on Controller {context.Controller}");
-
-
         }
     }
 }
