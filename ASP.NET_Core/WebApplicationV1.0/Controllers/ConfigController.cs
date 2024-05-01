@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 
 namespace WebApplicationV1._0.Controllers
 {
@@ -7,10 +8,15 @@ namespace WebApplicationV1._0.Controllers
     public class ConfigController : ControllerBase
     {
         private readonly IConfiguration configuration;
+        // IOptions Registered as Singleton
+        private readonly IOptionsSnapshot<AttachmentsOptions> attachments;
 
-        public ConfigController(IConfiguration configuration)
+        public ConfigController(IConfiguration configuration ,
+            IOptionsSnapshot<AttachmentsOptions> attachments)
         {
             this.configuration = configuration;
+            this.attachments = attachments;
+            var value = attachments.Value;
         }
 
         [HttpGet]
@@ -23,7 +29,8 @@ namespace WebApplicationV1._0.Controllers
                 //DefaultConnection = configuration["ConnectionStrings:DefaultConnection"]
                 DefaultLogLevel = configuration["Logging:LogLevel:Default"],
                 TestKey = configuration["TestKey"],
-                SigningKey = configuration["Signingkey"]
+                SigningKey = configuration["Signingkey"],
+                AttachmentsOptions = attachments.Value
             };
 
             return Ok(config);
