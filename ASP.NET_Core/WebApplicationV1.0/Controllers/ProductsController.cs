@@ -9,10 +9,13 @@ namespace WebApplicationV1._0.Controllers
     public class ProductsController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
+        private readonly ILogger<ProductsController> logger;
 
-        public ProductsController(ApplicationDbContext context)
+        public ProductsController(ApplicationDbContext context,
+                                  ILogger<ProductsController> logger)
         {
             _context = context;
+            this.logger = logger;
         }
 
         [HttpGet]
@@ -29,10 +32,15 @@ namespace WebApplicationV1._0.Controllers
         [LogSensitiveAction]
         public ActionResult<Product> GetById(int id)
         {
+            logger.LogDebug("Getting Product #{id} " + id);
             var product = _context.Set<Product>().Find(id);
-            
+
             if (product == null)
+            {
+                logger.LogDebug("Product #{id} was not found -- time{y} " ,
+                                id , DateTime.Now);
                 return NotFound();
+            }
 
             return Ok(product);
         }

@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|d:\\awork\\dotnet\\elmahdy\\asp.net_core\\webapplicationv1.0\\controllers\\configcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|solutionrelative:controllers\\configcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|d:\\awork\\dotnet\\elmahdy\\asp.net_core\\webapplicationv1.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|d:\\awork\\dotnet\\elmahdy\\asp.net_core\\webapplicationv1.0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|d:\\awork\\dotnet\\elmahdy\\asp.net_core\\webapplicationv1.0\\attachmentsoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|solutionrelative:attachmentsoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|d:\\awork\\dotnet\\elmahdy\\asp.net_core\\webapplicationv1.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|d:\\awork\\dotnet\\elmahdy\\asp.net_core\\webapplicationv1.0\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,51 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConfigController.cs",
-              "DocumentMoniker": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Controllers\\ConfigController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ConfigController.cs",
-              "ToolTip": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Controllers\\ConfigController.cs",
-              "RelativeToolTip": "Controllers\\ConfigController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBEAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T19:52:10.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AttachmentsOptions.cs",
-              "DocumentMoniker": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\AttachmentsOptions.cs",
-              "RelativeDocumentMoniker": "AttachmentsOptions.cs",
-              "ToolTip": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\AttachmentsOptions.cs",
-              "RelativeToolTip": "AttachmentsOptions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T01:49:30.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-01T01:46:23.73Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -79,9 +32,40 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAuwCoAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T22:36:29.821Z",
+              "WhenOpened": "2024-05-02T01:48:22.618Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAA3wCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T01:34:07.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAswAsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-02T01:33:46.313Z",
               "EditorCaption": ""
             }
           ]

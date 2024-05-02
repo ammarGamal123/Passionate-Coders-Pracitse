@@ -7,6 +7,11 @@ using WebApplicationV1._0.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddLogging(cfg =>
+{
+    cfg.AddDebug();
+    cfg.AddConsole();
+});
 // Register Your Configuration Json File into Configuration AddJsonFile
 builder.Configuration.AddJsonFile("Config.Json");
 
