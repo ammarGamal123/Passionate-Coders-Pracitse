@@ -28,9 +28,9 @@ namespace WebApplicationV1._0.Controllers
         }
 
         [HttpGet]
-        [Route("{id}")]
+        [Route("{id:int}")]
         [LogSensitiveAction]
-        public ActionResult<Product> GetById(int id)
+        public ActionResult<Product> GetById (int id)
         {
             logger.LogDebug("Getting Product #{id} " + id);
             var product = _context.Set<Product>().Find(id);
