@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|d:\\awork\\dotnet\\elmahdy\\asp.net_core\\webapplicationv1.0\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|d:\\awork\\dotnet\\elmahdy\\asp.net_core\\webapplicationv1.0\\authentication\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|solutionrelative:authentication\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,9 +32,22 @@
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
               "ToolTip": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAAACAAAAAuAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAAB0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T09:33:43.834Z",
+              "WhenOpened": "2024-05-08T04:48:04.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasicAuthenticationHandler.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Authentication\\BasicAuthenticationHandler.cs",
+              "RelativeDocumentMoniker": "Authentication\\BasicAuthenticationHandler.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Authentication\\BasicAuthenticationHandler.cs",
+              "RelativeToolTip": "Authentication\\BasicAuthenticationHandler.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAkwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T04:30:58.363Z",
               "EditorCaption": ""
             }
           ]

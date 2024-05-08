@@ -1,6 +1,8 @@
 
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 using WebApplicationV1._0;
+using WebApplicationV1._0.Authentication;
 using WebApplicationV1._0.Data;
 using WebApplicationV1._0.Filters;
 using WebApplicationV1._0.Middlewares;
@@ -57,7 +59,8 @@ builder.Services.Configure<AttachmentsOptions>
     (builder.Configuration.GetSection("Attachments"));
 
 
-
+builder.Services.AddAuthentication()
+    .AddScheme<AuthenticationSchemeOptions , BasicAuthenticationHandler>("Bacic", null);
 
 var app = builder.Build();
 

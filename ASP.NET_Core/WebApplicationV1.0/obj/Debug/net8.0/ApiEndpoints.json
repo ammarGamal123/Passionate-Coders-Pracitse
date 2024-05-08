@@ -83,6 +83,32 @@
   },
   {
     "ContainingType": "WebApplicationV1._0.Controllers.ProductsController",
+    "Method": "GetById",
+    "RelativePath": "Products/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationV1._0.Data.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationV1._0.Controllers.ProductsController",
     "Method": "DeleteProduct",
     "RelativePath": "Products/{id}",
     "HttpMethod": "DELETE",
@@ -98,32 +124,6 @@
     "ReturnTypes": [
       {
         "Type": "System.Int32",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebApplicationV1._0.Controllers.ProductsController",
-    "Method": "GetById",
-    "RelativePath": "Products/{key}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "key",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "WebApplicationV1._0.Data.Product",
         "MediaTypes": [
           "text/plain",
           "application/json",

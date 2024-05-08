@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using WebApplicationV1._0.Data;
 using WebApplicationV1._0.Filters;
 
@@ -6,6 +8,7 @@ namespace WebApplicationV1._0.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class ProductsController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
@@ -20,8 +23,13 @@ namespace WebApplicationV1._0.Controllers
 
         [HttpGet]
         [Route("")]
+        [AllowAnonymous]
         public ActionResult<IEnumerable<Product>> GetProducts()
         {
+            var userName = User.Identity.Name;
+            var userId = ((ClaimsIdentity)User.Identity).
+                FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
             var products = _context.Set<Product>().ToList();
             
             return Ok(products);
