@@ -22,7 +22,7 @@ namespace WebApplicationV1._0.Controllers
         }
 
         [HttpGet]
-        [Route("")]
+        [Route("GetProducts")]
         [AllowAnonymous]
         public ActionResult<IEnumerable<Product>> GetProducts()
         {
@@ -54,7 +54,7 @@ namespace WebApplicationV1._0.Controllers
         }
 
         [HttpPost]
-        [Route("")]
+        [Route("CreateProduct")]
         public ActionResult<Product> CreateProduct(Product product)
         {
             product.Id = 0;
@@ -66,7 +66,7 @@ namespace WebApplicationV1._0.Controllers
         }
 
         [HttpPut]
-        [Route("")]
+        [Route("UpdateProduct")]
         public ActionResult<Product> UpdateProduct(Product product)
         {
 
@@ -88,7 +88,7 @@ namespace WebApplicationV1._0.Controllers
         }
 
         [HttpDelete]
-        [Route("{id}")]
+        [Route("DeleteProduct{id:int}")]
         public ActionResult<int> DeleteProduct(int id)
         {
             var existingProduct = _context.Set<Product>().Find(id);

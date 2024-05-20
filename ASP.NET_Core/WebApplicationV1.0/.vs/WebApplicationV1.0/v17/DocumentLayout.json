@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|d:\\awork\\dotnet\\elmahdy\\asp.net_core\\webapplicationv1.0\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|d:\\awork\\dotnet\\elmahdy\\asp.net_core\\webapplicationv1.0\\authentication\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EAE2541-6CFE-4FB5-A5BE-8087FA0F95BF}|WebApplicationV1.0.csproj|solutionrelative:authentication\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,37 +9,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
-              "ToolTip": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAAB0AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T04:48:04.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BasicAuthenticationHandler.cs",
-              "DocumentMoniker": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Authentication\\BasicAuthenticationHandler.cs",
-              "RelativeDocumentMoniker": "Authentication\\BasicAuthenticationHandler.cs",
-              "ToolTip": "D:\\AWork\\DotNet\\Elmahdy\\ASP.NET_Core\\WebApplicationV1.0\\Authentication\\BasicAuthenticationHandler.cs",
-              "RelativeToolTip": "Authentication\\BasicAuthenticationHandler.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAkwB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T04:30:58.363Z",
-              "EditorCaption": ""
             }
           ]
         }

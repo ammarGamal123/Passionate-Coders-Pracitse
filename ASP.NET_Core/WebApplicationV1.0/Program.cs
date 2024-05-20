@@ -1,6 +1,9 @@
 
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using WebApplicationV1._0;
 using WebApplicationV1._0.Authentication;
 using WebApplicationV1._0.Data;
@@ -59,8 +62,25 @@ builder.Services.Configure<AttachmentsOptions>
     (builder.Configuration.GetSection("Attachments"));
 
 
+var jwtOptions = builder.Configuration.GetSection("Jwt").Get<JwtOptions>();
+
+builder.Services.AddSingleton(jwtOptions);
+
 builder.Services.AddAuthentication()
-    .AddScheme<AuthenticationSchemeOptions , BasicAuthenticationHandler>("Bacic", null);
+    .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
+    {
+        options.SaveToken = true;
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidIssuer = jwtOptions.Issuer,
+            ValidateActor = true,
+            ValidAudience = jwtOptions.Audience,
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtOptions.SigningKey))
+        };
+    });
+    // .AddScheme<AuthenticationSchemeOptions , BasicAuthenticationHandler>("Bacic", null);
 
 var app = builder.Build();
 
