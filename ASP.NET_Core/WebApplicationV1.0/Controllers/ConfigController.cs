@@ -11,7 +11,9 @@ namespace WebApplicationV1._0.Controllers
         // IOptions Registered as Singleton
         private readonly IOptionsSnapshot<AttachmentsOptions> attachments;
 
-        public ConfigController(IConfiguration configuration ,
+
+
+        public ConfigController(IConfiguration configuration,
             IOptionsSnapshot<AttachmentsOptions> attachments)
         {
             this.configuration = configuration;
@@ -20,7 +22,7 @@ namespace WebApplicationV1._0.Controllers
         }
 
         [HttpGet]
-        [Route("")]
+        [Route("GetConfig")]
         public ActionResult GetConfig()
         {
             var config = new {
