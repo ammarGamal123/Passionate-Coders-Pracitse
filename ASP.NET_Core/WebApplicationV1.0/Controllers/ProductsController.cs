@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
+using WebApplicationV1._0.Authorization;
 using WebApplicationV1._0.Data;
 using WebApplicationV1._0.Filters;
 
@@ -23,7 +24,7 @@ namespace WebApplicationV1._0.Controllers
 
         [HttpGet]
         [Route("GetProducts")]
-        [AllowAnonymous]
+        [CheckPermission(Permission.ReadProducts)]
         public ActionResult<IEnumerable<Product>> GetProducts()
         {
             var userName = User.Identity.Name;
@@ -37,6 +38,7 @@ namespace WebApplicationV1._0.Controllers
 
         [HttpGet]
         [Route("{id:int}")]
+        [CheckPermission(Permission.ReadProducts)]
         [LogSensitiveAction]
         public ActionResult<Product> GetById (int id)
         {

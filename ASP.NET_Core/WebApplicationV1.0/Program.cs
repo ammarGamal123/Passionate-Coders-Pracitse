@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using WebApplicationV1._0;
 using WebApplicationV1._0.Authentication;
+using WebApplicationV1._0.Authorization;
 using WebApplicationV1._0.Data;
 using WebApplicationV1._0.Filters;
 using WebApplicationV1._0.Middlewares;
@@ -23,11 +24,12 @@ builder.Configuration.AddJsonFile("Config.Json");
 // Add services to the container.
 
 // Here We register a filter we made (Called Global Filter)
-builder.Services.AddControllers(/*options =>
+builder.Services.AddControllers(options =>
 {
     // It Will be executed in every action 
     options.Filters.Add<LogActivityFilter>();
-})*/);
+    options.Filters.Add<PermissionBasedAuthorizationFilter>();
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

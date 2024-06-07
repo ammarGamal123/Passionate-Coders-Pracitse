@@ -8,5 +8,12 @@
 
         public required string Sku { get; set; }
 
+        public required decimal Price { get; set; }
+
+        // Nullable
+        public string? PaymentIntentId { get; set; }
+
+
+
     }
 }

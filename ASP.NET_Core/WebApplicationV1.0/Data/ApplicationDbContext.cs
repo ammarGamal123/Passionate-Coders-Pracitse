@@ -15,6 +15,9 @@ namespace WebApplicationV1._0.Data
 
             // I assign Product to be mapped in Products Table 
             modelBuilder.Entity<Product>().ToTable("Products").HasKey("Id");
+            modelBuilder.Entity<User>().ToTable("Users").HasKey("Id");
+            modelBuilder.Entity<UserPermission>().ToTable("UserPermissions")
+                .HasKey(x => new { x.UserId, x.PermissionId });
         }
     }
 }
